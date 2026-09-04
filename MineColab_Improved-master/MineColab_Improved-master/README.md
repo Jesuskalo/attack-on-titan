@@ -1,0 +1,158 @@
+> [!CAUTION]  
+> Google Colab has permanently auto-banned MineColab Improved projects from their system. Any user trying to use MCI will be automatically stopped from running environments, and if persistent it will banned.
+<p align="center"><a href="https://github.com/N-aksif-N/MineColab"><img src="https://raw.githubusercontent.com/N-aksif-N/MineColab/master/MineColab_Improved.png" alt="Logo" height="150"/></a></p>
+<h1 align="center">Mine Colab [Improved]</h1>
+<p align="center">Run Minecraft Server on Google Colab</p>
+<p align="right">
+  <a target="_blank" href="https://discord.gg/F9nPJTn7Nu"><img src="https://discordapp.com/api/guilds/1214801871827501097/widget.png?style=shield" alt="Discord Minecolab Support"></a>
+  <a target="_blank" href="https://github.com/N-aksif-N/Minecolab"><img src="https://img.shields.io/github/stars/N-aksif-N/Minecolab.svg?style=social&label=Star" alt="Star"></a>
+  <a href="https://colab.research.google.com/github/N-aksif-N/MineColab_Improved/blob/free-config/MineColabImproved.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+  <a href="https://github.com/N-aksif-N/MineColab_Improved/releases/latest" target="_parent"><img src="https://cdn-icons-png.flaticon.com/128/10741/10741247.png" alt="Download" width="20" height="20"></a> 
+</p>
+
+<details>
+  <summary>Table of content</summary>
+  
+  - [ :hear_no_evil: What is Minecolab_Improved?](https://github.com/N-aksif-N/MineColab_Improved/tree/master/?tab=readme-ov-file#hear_no_evil--first-of-all-what-is-mine-colab-improved)
+  - [ :moneybag: Can Minecolab server online 24/7?](https://github.com/N-aksif-N/MineColab_Improved/tree/master/?tab=readme-ov-file#moneybag--can-minecolab-server-online-247)
+  - [ :page_with_curl: Instructions](https://github.com/N-aksif-N/MineColab_Improved/tree/master/?tab=readme-ov-file#page_with_curl-instructions)
+  - [ :zap: How does Minecolab actually work?](https://github.com/N-aksif-N/MineColab_Improved/tree/master/?tab=readme-ov-file#zap--so-how-does-it-actually-work)
+  - [ 🔮 License](https://github.com/N-aksif-N/MineColab_Improved/tree/master/?tab=readme-ov-file#-license)
+  - [ 🐛 Found a bug?](https://github.com/N-aksif-N/MineColab_Improved/tree/master/?tab=readme-ov-file#-found-a-bug)
+  - [ 👍 Notes](https://github.com/N-aksif-N/MineColab_Improved/tree/master/?tab=readme-ov-file#-notes)
+</details>
+                                                                                 
+# :hear_no_evil:  First of all, what is Mine Colab [Improved]?
+
+Mine Colab [Improved] is an alternative [Minecolab project](https://github.com/thecoder-001/MineColab) that helps to build a Minecraft server on your own [Google Drive](https://workspace.google.com/intl/es/products/drive). It is easier to use and more flexible to edit. This project is suited mainly for [Google Colab](https://colab.research.google.com), a paid service of Google with free plans based on [Jupyter Notebook](https://jupyter.org/) and [Ubuntu](https://ubuntu.com) OS. Anyway, this notebook can be used on other projects like [Jupyter Lab](https://jupyter.org/try-jupyter/lab/), [Deepnote](https://deepnote.com/), etc... taking into account it may require some modifications depending on the service. This project follows the [GNU License](https://github.com/N-aksif-N/Minecolab/blob/master/LICENSE). Before looking closer to it, please make sure to take a look into [the original project by thecoder-001](https://github.com/thecoder-001/MineColab)
+
+# :moneybag:  Can MCI run your server online 24/7?
+
+Of course, it's possible but with a little hard work. Google Colab is a free service and it is not suited for 24/7, but 12 hours online so in the case you want your server to be accesible 24/7 you could use [Deepnote](https://deepnote.com/) instead.
+> [!WARNING]  
+> Take into account that when using **Deepnote** some modifications to the internal code of the notebook might be required.
+
+If you still want to use Google Colab take into account that your server uptime will depend on Google Colab's actual usage of their servers and you may need to use some tricks that we will not provide (sorry) or friends to make the web online and accept the captcha manually. 
+> [!TIP]  
+> We suggest to take into account that your server will elap around 10 hours. Being in that case sure that your server will not be forced stopped by Google Colab unless they require your resources for a paid or uncommon user.
+
+# :page_with_curl: Instructions
+1. Open the notebook in Google Colab.
+2. Run the SET-UP CELL (important)
+3. Read through the notebook, most of the cells are self-explanatory with easy-reading and for-all markdown (information of what the cells do). Run the cells that are useful for your use case.
+> [!IMPORTANT]  
+> Remember that you can take a look to our [whole wiki](https://minecolabimproved-wiki-gg.translate.goog/es/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp) in the case you need some information or just want to be updated of what does each section of the notebook.
+
+**Create your own Minecraft server**
+> [!TIP]  
+> Use a TPU runtime if possible and select the best [Tunneling Service](https://minecolabimproved-wiki-gg.translate.goog/es/wiki/Servicios_de_Tunneling?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp) that fits with you to have the best performance.
+1. Run the cell that creates the Minecraft server. [More info here](https://minecolabimproved-wiki-gg.translate.goog/es/wiki/Celda_Starting?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp).
+2. After that, select your prefered tunneling service, complete it's steps and connect to your server! [Take a look to the wiki](https://minecolabimproved-wiki-gg.translate.goog/es/wiki/Servicios_de_Tunneling?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp&_x_tr_hist=true#Ngrok-0) to know how to use each one or continue to the next section.
+   
+- **[Ngrok](https://ngrok.com)**
+  1. Follow the prompts.
+  2. The IP will change whenever you restart the server.
+
+- **[Cloudflare's argo](https://www.cloudflare.com/)** :
+  - If the 'Your free tunnel has started!' notification appears => Done.
+  - Access to your server:
+    1. Download [Cloudflared client](https://github.com/cloudflare/cloudflared/releases/).
+    2. Launch the binary with `<your Cloudflare file name> access tcp --hostname <tunnel_address> --url 127.0.0.1:25565` (note: tunnel_address is your address which has been set on your Cloudflare).
+    4. Finally, connect to `127.0.0.1:25565` from the minecraft client which is located in that machine.
+
+- **[Localtonet](https://localtonet.com/)**:
+  1. Navigate to [TCP-UDG](https://localtonet.com/tunnel/tcpudp) page. Select TCP in Protocol Types.
+  2. Get your authtoken from [Authtoken](https://localtonet.com/usertoken).
+  3. Pick the server you'd like your tunnel to operate on.
+  4. Input the IP and Port values the tunnel will listen to, in this case, for Minecraft, it's typically IP: 127.0.0.1 and Port: 25565.
+  5. Finally, create and start your tunnel by pressing the Start button.
+
+  - Read more on [how-to-use-localtonet-with-minecraft](https://localtonet.com/documents/using-localtonet-with-minecraft).
+  
+- **[Zrok](https://zrok.io/)**: 
+  1. Download the zrok app through [link](https://docs.zrok.io/docs/getting-started/).
+  2. Open the shell. Type `zrok invite` to sign up and get the authtoken.
+  3. Follow the prompts.
+
+- **[PlayIt](https://playit.gg/)**:
+  1. Follow the prompts.
+ 
+- **[Minekube](https://connect.minekube.com)**:
+  1. Create or edit a server and select the Minekube service in the Change Tunnel Service section or during server creation.
+  2. Create an account on Minekube and generate an Endpoint.
+  3. Reboot, copy the Token and paste it into Change Tunnel Token (in the tunneling options, with minekube-gate enabled).
+  4. Turn the server on and then off to generate the necessary folders.
+  5. Open your file server.properties and disable the following parameters:
+     - enforce-secure-profile
+     - online-mode
+  6. Then, open the Minekube file config.yml (located in the tunnels folder).
+  7. Find the line that contains `#name you-endpoint-name`, remove the `#` and after the `:` write the name of your Endpoint.
+  8. Finally, turn on the server and let the notebook create a PlayIt connector for you automatically.
+    - Take into account that if you haven't registered PlayIt on the notebook before, you will be asked for.
+
+> [!CAUTION]  
+> When writing your name you should just write the name before the first colon of the link (without the `.play.minekube`).
+
+# :zap:  So, how does it actually work?
+MInecolab [Improved] is an alternative Minecolab project. Therefore, it has all the main features which the Minecolab project does: 
+ 
+1. Update the system's apt-cache.
+2. Install Openjdk-8 (For Minecraft versions below 1.17) or Openjdk-17 (For Minecraft versions over or in 1.17) through apt-get.
+3. Mount Google Drive to access the Minecraft folder (Drive is used here to provide persistent storage).
+4. Setup Argo/ngrok/playit Tunnel (Opening a tunnel at port 25565) depending on the `tunnel_service` variable.
+5. Change the directory to the Minecraft server folder on Google Drive ("Minecraft-server" is the default, located in the root directory of your Google Drive.)
+6. List/Print the file list on the screen to indicate successful directory change.
+7. Startup the Minecraft server (with optimized JVM parameters from [Aikar's guide)](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/) and from GC logging.
+
+Additionally, Minecolab [Improved] has more new features:
+
+1. Bug Fixes: Mine Colab [Improved] addresses issues like Java errors, connection disruptions, and missing files, ensuring a smoother experience.
+2. Performance Improvements: The project has been optimized for better performance, making it more efficient.
+3. Mod and Plugin Support: You can now easily integrate mods, plugins, and mod packs from two primary sources: Modrinth and CurseForge.
+4. Server Configuration:
+    - Server Properties: Customize server properties such as game rules, difficulty, and world settings.
+    - Server MOTD (Message of the Day): Describe the server, promote features, create announcements, attract attention.
+5. Server Icon Configuration: Choose an icon to represent your server visually.
+6. Logs Viewing: Access and review server logs to troubleshoot issues or monitor server activity.
+7. Server Backup: Create backups of your server data in zip files, ensuring data safety.
+8. Expanded Software Support:
+    - Forge: Use the popular Forge modding platform.
+    - Fabric: Opt for the lightweight Fabric mod loader.
+    - Vanilla: Run a vanilla Minecraft server.
+    - Snapshot: Experiment with the latest Minecraft snapshots.
+    - Paper: Utilize the Paper server software.
+    - Purpur: Explore the Purpur server implementation.
+    - Arclight: Try out the Arclight server software.
+    - Mohist: Use Mohist, which combines Forge and Fabric.
+    - Banner: Deploy a Banner server.
+    - Velocity: Set up a Velocity proxy server.
+9. Continued developing to improve each version and mantain up to date!
+        
+## 🔮 **License:**   
+[![License](https://camo.githubusercontent.com/966484ce4d3faab2d9803e7354431ff8e4fce6a424e97689f05b2f50f4ee424b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f497a7a656c416c697a2f4172636c696768743f7374796c653d666c61742d737175617265)](https://github.com/N-aksif-N)
+
+## 🐛 Found a bug?
+
+- Report the bug by creating a new issue and use this helpful [issue template](https://github.com/N-aksif-N/MineColab/blob/main/.github/ISSUE_TEMPLATE/bug_report.md).
+Or join the Discord: [Minecolab Support](https://discord.gg/uCHcV3SAbs)
+- Suggest a new feature using this [template](https://github.com/N-aksif-N/MineColab/blob/main/.github/ISSUE_TEMPLATE/feature_request.md).
+- See all work that has been done, in processed, or what I want to do in the future from **[minecolab improve roadmap](https://github.com/users/N-aksif-N/projects/1)**
+
+## 👍 Notes
+- Please use the FUNCTION in the notebook unless you want any ERRORS/BUGS.
+- If something does not work, try using a VPN like [windscribe](https://windscribe.com) before opening an issue.
+- Switch between the three tunnel providers and see which works best.
+- Make regular backups of your world.
+- Google Colab is not designed to create Minecraft servers, but it can be done. Google Colab promises to work for 12 hours straight, however, it is possible that if no person is reviewing the page or using the console, basically if the page detects inactivity the process will end. The performance is approximately 12 GB of RAM, together with a processor with a power of 2.2 GHz and 2 threads, this is better than many paid hostings, but it doesn't have support and doesn't promise to be open always
+- It is not advisable to fill it with as many as plugins, which is more limited to this server than its own processor, it is not very good, any hosting for 12 USD can offer a higher quality server, if you are thinking of creating something for many users, it's much better.
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/N-aksif-N)
+
+## 👥 Contributors
+This project couldn't be made just without everyone that put it's little piece of sand, so we would like to show them all in this section.
+- N-aksif-N (obviously 😅) - [Discord](https://discordapp.com/users/1157345252718424144) & [GitHub](https://github.com/N-aksif-N)
+- Hello World - [Discord](https://discordapp.com/users/1077357092689678346)
+- Villegas21j - [Discord](https://discordapp.com/users/997463882232774817) & [GitHub](https://github.com/Villegas21j)
+- ñ (apulise) - [Discord](https://discordapp.com/users/613833842918162511) & [GitHub](https://github.com/apulise)
+- PhobosStarlight - [Discord](https://discordapp.com/users/754122084266934343)
+- Prozoon700 - [Discord](https://discordapp.com/users/762281328733192223) & [GitHub](https://github.com/prozoon700)
